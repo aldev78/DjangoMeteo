@@ -1,0 +1,103 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Prévisions météo</title>
+    <link rel="stylesheet" href="{% static 'previsions/css/styles.css' %}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v6.1.1/js/all.js"></script>
+</head>
+<body>
+<section class="hero  is-fullheight background_hero">
+    <div class="hero-head">
+        <nav class="navbar has-background-link" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="http://localhost:8000/">
+                    <span class="is-uppercase has-text-weight-bold has-text-white">application météo</span>
+                </a>
+
+                <a role="button" class="navbar-burger has-text-white" aria-label="menu" aria-expanded="false"
+                   data-target="navbarMenu">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+
+            </div>
+            <div id="navbarMenu" class="navbar-menu">
+                <div class="navbar-start">
+                    <a class="navbar-item has-text-white">
+                        Accueil
+                    </a>
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link has-text-white">
+                            Plus...
+                        </a>
+                        <div class="navbar-dropdown">
+                            <a class="navbar-item">
+                                Configuration
+                            </a>
+                            <a class="navbar-item">
+                                A propos
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="navbarMenu" class="navbar-menu is-active">
+                <div class="navbar-end">
+                    <div class="navbar-item">
+                        <form action="{% url 'previsions:display_previsions_ville'%}" method="post">
+                            {% csrf_token %}
+                            <div class="block pr-6">
+                                <div class="columns is-mobile is-gapless">
+                                    <div class="column is-full">
+                                        <div class="control">
+                                            <input name="ville" class="input" type="text" placeholder="Ville...">
+                                        </div>
+                                    </div>
+                                    <div class="column">
+                                        <div class="control">
+                                            <button class="button is-primary">
+                                            <span class="icon">
+                                              <i class="fas fa-search"></i>
+                                            </span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="navbar-item">
+                        <a href="/previsions/logout" class="button is-light">
+                        {% if user.is_authenticated %}
+                            Se déconnecter ({{user.first_name}})
+                        {% else %}
+                            Se connecter
+                        {% endif %}
+                    </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="hero-body ">
+        {% block content %}{% endblock content %}
+    </div>
+    <div class="hero-foot">
+        <div class="container has-text-centered">
+            <p class="footer-text">
+                <a href="https://coder-pour-changer-de-vie.com"
+                >Vivre du Code
+                    <i class="fa fa-heart fa-fw heart"></i>
+                    par Nicolas Georgemel</a
+                >
+                <span id="version" class="has-text-white"></span>
+                <span id="environment"></span>
+            </p>
+        </div>
+    </div>
+</section>
+</body>
+</html>

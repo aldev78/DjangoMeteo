@@ -1,0 +1,49 @@
+{% extends 'previsions/base.html' %}
+{% load static %}
+{% block content %}
+<div class="container has-text-centered has-text-white">"
+    <p class="title has-text-white">Météo de la ville de {{ville}}</p>
+    <p class="subtitle has-text-white">Prévision des prochains jour</p>
+    <nav class="columns is-centered">
+        {% for prevision in previsions_affichage %}
+        <div class="column">
+            <div class="card meteo_card mx-4">
+                <div class="card-header">
+                    <div class="card-header-title">{{prevision.jour}}</div>
+                </div>
+                <div class="py-6 meteo_card_picture ">
+                    <div class="has-text-centered">
+                        <figure class="image is-128x128 is-inline-block">
+                            <img src="{% static prevision.icon %}"></img>
+                        </figure>
+                    </div>
+                    <p class="title is-1 has-text-white has-text-centered mt-2">
+                        {{prevision.temperature|floatformat:1}}</p>
+                </div>
+                <div class="card-content">
+                    <div class="columns is-mobile is-gapeless">
+                        <div class="column">
+                            <p>{{prevision.description}}</p>
+                        </div>
+                        <div class="column">
+                                <span class="icon-text">
+                                    <div class="columns is-gapless">
+                                        <div class="column">
+                                            <figure class="image is-32x32">
+                                                <img src="{% static prevision.icon %}"></img>
+                                            </figure>
+                                        </div>
+                                        <div class="column">
+                                            <span>{{prevision.force_vent|floatformat:0}} Km/h</span>
+                                        </div>
+                                    </div>
+                                 </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </nav>
+</div>
+{% endblock content %}

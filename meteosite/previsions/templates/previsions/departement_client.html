@@ -1,0 +1,26 @@
+{% extends 'previsions/base.html' %}
+{% load crispy_forms_tags %}
+
+{% block content %}
+
+<h1>Formulaire pour la consultation des villes d'un departement</h1>
+<form action="{% url 'previsions:departement_client'%}" method="post">
+    {% csrf_token %}
+        {% crispy form %}
+
+    <div class="container">
+        LISTE DES VILLES
+        <ul>
+            {% for ville in page_obj %}
+                <li>{{ ville.nom }}, {{ville.code_postal}}</li>
+            {% endfor %}
+        </ul>
+
+        {% include "previsions/pagination.html" %}
+    </div>
+</form>
+
+
+{% endblock %}
+
+

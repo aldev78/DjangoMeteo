@@ -1,0 +1,204 @@
+INSERT INTO public.departement(nom, code) VALUES ('Ain','1');
+INSERT 0 1
+INSERT INTO public.departement(nom, code) VALUES ('Aisne','2');
+INSERT 0 1
+INSERT INTO public.departement(nom, code) VALUES ('Allier','3');
+INSERT 0 1
+INSERT INTO public.departement(nom, code) VALUES ('Hautes-Alpes','5');
+INSERT 0 1
+INSERT INTO public.departement(nom, code) VALUES ('Alpes-de-Haute-Provence','4');
+INSERT 0 1
+INSERT INTO public.departement(nom, code) VALUES ('Alpes-Maritimes','6');
+INSERT 0 1
+INSERT INTO public.departement(nom, code) VALUES ('Ardèche','7');
+INSERT 0 1
+INSERT INTO public.departement(nom, code) VALUES ('Ardennes','8');
+INSERT 0 1
+INSERT INTO public.departement(nom, code) VALUES ('Ariège','9');
+INSERT 0 1
+INSERT INTO public.departement(nom, code) VALUES ('Aube','10');
+INSERT 0 1
+INSERT INTO public.departement(nom, code) VALUES ('Aude','11');
+INSERT 0 1
+INSERT INTO public.departement(nom, code) VALUES ('Aveyron','12');
+INSERT 0 1
+INSERT INTO public.departement(nom, code) VALUES ('Bouches-du-Rhône','13');
+INSERT 0 1
+INSERT INTO public.departement(nom, code) VALUES ('Calvados','14');
+INSERT 0 1
+INSERT INTO public.departement(nom, code) VALUES ('Cantal','15');
+INSERT 0 1
+INSERT INTO public.departement(nom, code) VALUES ('Charente','16');
+INSERT 0 1
+INSERT INTO public.departement(nom, code) VALUES ('Charente-Maritime','17');
+INSERT 0 1
+INSERT INTO public.departement(nom, code) VALUES ('Cher','18');
+INSERT 0 1
+INSERT INTO public.departement(nom, code) VALUES ('Corrèze','19');
+INSERT 0 1
+INSERT INTO public.departement(nom, code) VALUES ('Corse-du-sud','2A');
+INSERT 0 1
+INSERT INTO public.departement(nom, code) VALUES ('Haute-corse','2B');
+INSERT 0 1
+INSERT INTO public.departement(nom, code) VALUES ('Côte-d''or','21');
+INSERT 0 1
+INSERT INTO public.departement(nom, code) VALUES ('Côtes-d''armor','22');
+INSERT 0 1
+INSERT INTO public.departement(nom, code) VALUES ('Creuse','23');
+INSERT 0 1
+INSERT INTO public.departement(nom, code) VALUES ('Dordogne','24');
+INSERT 0 1
+INSERT INTO public.departement(nom, code) VALUES ('Doubs','25');
+INSERT 0 1
+INSERT INTO public.departement(nom, code) VALUES ('Drôme','26');
+INSERT 0 1
+INSERT INTO public.departement(nom, code) VALUES ('Eure','27');
+INSERT 0 1
+INSERT INTO public.departement(nom, code) VALUES ('Eure-et-Loir','28');
+INSERT 0 1
+INSERT INTO public.departement(nom, code) VALUES ('Finistère','29');
+INSERT 0 1
+INSERT INTO public.departement(nom, code) VALUES ('Gard','30');
+INSERT 0 1
+INSERT INTO public.departement(nom, code) VALUES ('Haute-Garonne','31');
+INSERT 0 1
+INSERT INTO public.departement(nom, code) VALUES ('Gers','32');
+INSERT 0 1
+INSERT INTO public.departement(nom, code) VALUES ('Gironde','33');
+INSERT 0 1
+INSERT INTO public.departement(nom, code) VALUES ('Hérault','34');
+INSERT 0 1
+INSERT INTO public.departement(nom, code) VALUES ('Ile-et-Vilaine','35');
+INSERT 0 1
+INSERT INTO public.departement(nom, code) VALUES ('Indre','36');
+INSERT 0 1
+INSERT INTO public.departement(nom, code) VALUES ('Indre-et-Loire','37');
+INSERT 0 1
+INSERT INTO public.departement(nom, code) VALUES ('Isère','38');
+INSERT 0 1
+INSERT INTO public.departement(nom, code) VALUES ('Jura','39');
+INSERT 0 1
+INSERT INTO public.departement(nom, code) VALUES ('Landes','40');
+INSERT 0 1
+INSERT INTO public.departement(nom, code) VALUES ('Loir-et-Cher','41');
+INSERT 0 1
+INSERT INTO public.departement(nom, code) VALUES ('Loire','42');
+INSERT 0 1
+INSERT INTO public.departement(nom, code) VALUES ('Haute-Loire','43');
+INSERT 0 1
+INSERT INTO public.departement(nom, code) VALUES ('Loire-Atlantique','44');
+INSERT 0 1
+INSERT INTO public.departement(nom, code) VALUES ('Loiret','45');
+INSERT 0 1
+INSERT INTO public.departement(nom, code) VALUES ('Lot','46');
+INSERT 0 1
+INSERT INTO public.departement(nom, code) VALUES ('Lot-et-Garonne','47');
+INSERT 0 1
+INSERT INTO public.departement(nom, code) VALUES ('Lozère','48');
+INSERT 0 1
+INSERT INTO public.departement(nom, code) VALUES ('Maine-et-Loire','49');
+INSERT 0 1
+INSERT INTO public.departement(nom, code) VALUES ('Manche','50');
+INSERT 0 1
+INSERT INTO public.departement(nom, code) VALUES ('Marne','51');
+INSERT 0 1
+INSERT INTO public.departement(nom, code) VALUES ('Haute-Marne','52');
+INSERT 0 1
+INSERT INTO public.departement(nom, code) VALUES ('Mayenne','53');
+INSERT 0 1
+INSERT INTO public.departement(nom, code) VALUES ('Meurthe-et-Moselle','54');
+INSERT 0 1
+INSERT INTO public.departement(nom, code) VALUES ('Meuse','55');
+INSERT 0 1
+INSERT INTO public.departement(nom, code) VALUES ('Morbihan','56');
+INSERT 0 1
+INSERT INTO public.departement(nom, code) VALUES ('Moselle','57');
+INSERT 0 1
+INSERT INTO public.departement(nom, code) VALUES ('Nièvre','58');
+INSERT 0 1
+INSERT INTO public.departement(nom, code) VALUES ('Nord','59');
+INSERT 0 1
+INSERT INTO public.departement(nom, code) VALUES ('Oise','60');
+INSERT 0 1
+INSERT INTO public.departement(nom, code) VALUES ('Orne','61');
+INSERT 0 1
+INSERT INTO public.departement(nom, code) VALUES ('Pas-de-Calais','62');
+INSERT 0 1
+INSERT INTO public.departement(nom, code) VALUES ('Puy-de-Dôme','63');
+INSERT 0 1
+INSERT INTO public.departement(nom, code) VALUES ('Pyrénées-Atlantiques','64');
+INSERT 0 1
+INSERT INTO public.departement(nom, code) VALUES ('Hautes-Pyrénées','65');
+INSERT 0 1
+INSERT INTO public.departement(nom, code) VALUES ('Pyrénées-Orientales','66');
+INSERT 0 1
+INSERT INTO public.departement(nom, code) VALUES ('Bas-Rhin','67');
+INSERT 0 1
+INSERT INTO public.departement(nom, code) VALUES ('Haut-Rhin','68');
+INSERT 0 1
+INSERT INTO public.departement(nom, code) VALUES ('Rhône','69');
+INSERT 0 1
+INSERT INTO public.departement(nom, code) VALUES ('Haute-Saône','70');
+INSERT 0 1
+INSERT INTO public.departement(nom, code) VALUES ('Saône-et-Loire','71');
+INSERT 0 1
+INSERT INTO public.departement(nom, code) VALUES ('Sarthe','72');
+INSERT 0 1
+INSERT INTO public.departement(nom, code) VALUES ('Savoie','73');
+INSERT 0 1
+INSERT INTO public.departement(nom, code) VALUES ('Haute-Savoie','74');
+INSERT 0 1
+INSERT INTO public.departement(nom, code) VALUES ('Paris','75');
+INSERT 0 1
+INSERT INTO public.departement(nom, code) VALUES ('Seine-Maritime','76');
+INSERT 0 1
+INSERT INTO public.departement(nom, code) VALUES ('Seine-et-Marne','77');
+INSERT 0 1
+INSERT INTO public.departement(nom, code) VALUES ('Yvelines','78');
+INSERT 0 1
+INSERT INTO public.departement(nom, code) VALUES ('Deux-Sèvres','79');
+INSERT 0 1
+INSERT INTO public.departement(nom, code) VALUES ('Somme','80');
+INSERT 0 1
+INSERT INTO public.departement(nom, code) VALUES ('Tarn','81');
+INSERT 0 1
+INSERT INTO public.departement(nom, code) VALUES ('Tarn-et-Garonne','82');
+INSERT 0 1
+INSERT INTO public.departement(nom, code) VALUES ('Var','83');
+INSERT 0 1
+INSERT INTO public.departement(nom, code) VALUES ('Vaucluse','84');
+INSERT 0 1
+INSERT INTO public.departement(nom, code) VALUES ('Vendée','85');
+INSERT 0 1
+INSERT INTO public.departement(nom, code) VALUES ('Vienne','86');
+INSERT 0 1
+INSERT INTO public.departement(nom, code) VALUES ('Haute-Vienne','87');
+INSERT 0 1
+INSERT INTO public.departement(nom, code) VALUES ('Vosges','88');
+INSERT 0 1
+INSERT INTO public.departement(nom, code) VALUES ('Yonne','89');
+INSERT 0 1
+INSERT INTO public.departement(nom, code) VALUES ('Territoire de Belfort','90');
+INSERT 0 1
+INSERT INTO public.departement(nom, code) VALUES ('Essonne','91');
+INSERT 0 1
+INSERT INTO public.departement(nom, code) VALUES ('Hauts-de-Seine','92');
+INSERT 0 1
+INSERT INTO public.departement(nom, code) VALUES ('Seine-Saint-Denis','93');
+INSERT 0 1
+INSERT INTO public.departement(nom, code) VALUES ('Val-de-Marne','94');
+INSERT 0 1
+INSERT INTO public.departement(nom, code) VALUES ('Val-d''oise','95');
+INSERT 0 1
+INSERT INTO public.departement(nom, code) VALUES ('Mayotte','976');
+INSERT 0 1
+INSERT INTO public.departement(nom, code) VALUES ('Guadeloupe','971');
+INSERT 0 1
+INSERT INTO public.departement(nom, code) VALUES ('Guyane','973');
+INSERT 0 1
+INSERT INTO public.departement(nom, code) VALUES ('Martinique','972');
+INSERT 0 1
+INSERT INTO public.departement(nom, code) VALUES ('Réunion','974');
+INSERT 0 1
+INSERT INTO public.departement(nom, code) VALUES ('Saint-Pierre-et-Miquelon','975');
+INSERT 0 1

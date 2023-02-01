@@ -1,0 +1,18 @@
+{% extends 'previsions/base.html' %}
+{% block content %}
+<div class="container">
+<article class="panel is-link my-6 mx-6">
+    <p class="panel-heading">
+        Favoris
+    </p>
+    {% for ville in favoris %}
+        <a class="panel-block">
+        <span class="panel-icon">
+          <i class="fas fa-city" aria-hidden="true"></i>
+        </span>
+            {{ ville }}
+        </a>
+    {% endfor %}
+</article>
+</div>
+{% endblock content %}

@@ -1,0 +1,7 @@
+<h1>Voici la liste des villes pour le département {{departement.nom}} ({{departement.code}})</h1>
+<p/>
+<ul>
+{% for ville in villes_du_departement %}
+    <li>{{ ville.nom }}, {{ville.code_postal}}</li>
+{% endfor %}
+</ul>

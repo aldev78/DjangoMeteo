@@ -1,0 +1,23 @@
+.background_hero {
+    background-image: url('../images/rain.webp');
+    background-size: cover;
+}
+
+.background_filter {
+    /*filter: opacity(90%);*/
+    filter: sepia(90%);
+
+}
+
+.meteo_card_picture {
+
+
+    background: linear-gradient(to bottom, #72EDF2AA 0%, #5151E5BC 80%), url('https://images.unsplash.com/photo-1559963110-71b394e7494d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=675&q=80') right center no-repeat;
+
+
+}
+
+.meteo_card {
+    border-radius: 0.8rem;
+}
+

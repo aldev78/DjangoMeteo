@@ -1,0 +1,10 @@
+<h1>Formulaire pour la consultation des villes d'un departement</h1>
+<form action="{% url 'previsions:display_villes'%}" method="post">
+    {% csrf_token %}
+    <select name="id_departement">
+        {% for departement in liste_departements %}
+        <option value="{{departement.id_departement}}" name="id_departement">{{departement.nom}}</option>
+        {% endfor %}
+    </select>
+    <input type="submit">
+</form>

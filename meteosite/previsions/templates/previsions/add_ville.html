@@ -1,0 +1,24 @@
+{% extends 'previsions/base.html' %}
+{% load crispy_forms_tags %}
+{% block content %}
+
+<form action="{% url 'previsions:add_ville'%}" method="post">
+    {% csrf_token %}
+    <div class="container">
+        <div class="mt-6 mx-6">
+        {% crispy form %}
+            <button class="button is-primary" type="submit" value="Ajouter">Ajouter</button>
+        </div>
+    </div>
+</form>
+</p>
+
+{% if save_error %}
+    <p>Une erreur s'est produite lors de l'enregistrement de la ville en base de données</p>
+{% else %}
+    {% if is_create == False %}
+    <p>La ville a bien été enregistrée en base de données</p>
+    {% endif %}
+{% endif %}
+
+{% endblock content %}
